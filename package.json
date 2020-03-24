@@ -7,9 +7,13 @@
     "type": "git",
     "url": "git+https://github.com/sedona-cms/eslint-config.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sedona-cms"
+  ],
+  "author": "Ivan Kalinichenko <kalinichenko@constlab.ru>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sedona-cms/eslint-config/issues"
   },
