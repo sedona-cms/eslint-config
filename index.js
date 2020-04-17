@@ -43,6 +43,7 @@ module.exports = {
           props: false,
           res: false,
           req: false,
+          args: false,
         },
       },
     ],
