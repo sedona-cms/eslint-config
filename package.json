@@ -1,8 +1,11 @@
 {
   "name": "@sedona-cms/eslint-config",
   "version": "1.0.0",
-  "description": "ESLint config for Sedona CMS packages\n",
+  "description": "ESLint config for Sedona CMS packages",
   "main": "index.js",
+  "scripts": {
+    "release": "release-it"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sedona-cms/eslint-config.git"
@@ -26,7 +29,8 @@
     "eslint-plugin-unicorn": "^17.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.4"
+    "prettier": "^2.0.4",
+    "release-it": "^13.5.4"
   },
   "peerDependencies": {
     "typescript": "^3.8.*"
