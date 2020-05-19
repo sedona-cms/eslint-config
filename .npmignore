@@ -1,0 +1,7 @@
+.github/
+
+.env
+.env.example
+.prettierrc
+.release-it.json
+.gitignore

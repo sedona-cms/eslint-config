@@ -4,7 +4,9 @@
   "description": "ESLint config for Sedona CMS packages",
   "main": "index.js",
   "scripts": {
-    "release": "release-it"
+    "release:major": "release-it major",
+    "release:minor": "release-it minor",
+    "release:patch": "release-it patch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "eslint-plugin-unicorn": "^17.2.0"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^1.1.4",
     "prettier": "^2.0.5",
     "release-it": "^13.6.1"
   },
