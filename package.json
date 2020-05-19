@@ -3,6 +3,11 @@
   "version": "1.0.3",
   "description": "ESLint config for Sedona CMS packages",
   "main": "index.js",
+  "scripts": {
+    "release:patch": "dotenv release-it patch",
+    "release:minor": "dotenv release-it minor",
+    "release:major": "dotenv release-it major"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sedona-cms/eslint-config.git"
@@ -26,6 +31,7 @@
     "eslint-plugin-unicorn": "^17.2.0"
   },
   "devDependencies": {
+    "dotenv-cli": "^3.1.0",
     "prettier": "^2.0.5",
     "release-it": "^13.6.1"
   },
