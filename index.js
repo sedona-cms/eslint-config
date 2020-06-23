@@ -37,6 +37,7 @@ module.exports = {
       'error',
       { allows: ['readonly', 'private readonly'] },
     ],
+    '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
     'unicorn/filename-case': ['error', { cases: { pascalCase: true, kebabCase: true } }],
     'unicorn/prevent-abbreviations': [
       'error',
