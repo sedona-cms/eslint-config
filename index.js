@@ -4,6 +4,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    es2020: true,
   },
   parser: '@typescript-eslint/parser',
   extends: [
@@ -16,8 +17,10 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2019,
     sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
     parser: '@typescript-eslint/parser',
   },
   plugins: ['@typescript-eslint', 'unicorn'],
