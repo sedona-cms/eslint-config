@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/sedona-cms/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
-    "@typescript-eslint/parser": "^3.6.0",
-    "eslint": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^20.1.0"
   },
@@ -37,6 +37,6 @@
     "release-it": "^13.6.5"
   },
   "peerDependencies": {
-    "typescript": "^3.8.*"
+    "typescript": "^3.9.*"
   }
 }
