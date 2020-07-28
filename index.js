@@ -48,6 +48,8 @@ module.exports = {
           res: false,
           req: false,
           args: false,
+          src: false,
+          dir: false,
         },
       },
     ],
