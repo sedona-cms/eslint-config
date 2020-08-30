@@ -50,6 +50,7 @@ module.exports = {
           args: false,
           src: false,
           dir: false,
+          env: false,
         },
       },
     ],
