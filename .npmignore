@@ -1,6 +1,7 @@
 .github/
 .idea/
 
+package-lock.json
 .env
 .env.example
 .prettierrc
