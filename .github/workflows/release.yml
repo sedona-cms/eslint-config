@@ -1,10 +1,16 @@
 name: Release on NPM
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      type:
+        description: A release type (path, minor or major)
+        required: true
+        default: patch
 
 jobs:
-  patch:
+  release:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Hello"
+          echo "Hello ${{ github.event.inputs.type }}!"
