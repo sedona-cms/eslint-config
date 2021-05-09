@@ -1,6 +1,6 @@
 {
   "name": "@sedona-cms/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "ESLint config for Sedona CMS packages",
   "main": "index.js",
   "scripts": {
